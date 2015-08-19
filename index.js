@@ -28,7 +28,7 @@ module.exports = function(opts) {
 			$('img').each(function() {
 				if (this.attr('src')) {
 					var image = this.attr('src');
-					if(image) {
+                    if (image && image.indexOf('://') == -1) {
 						image = image.split('/');
 						this.attr('src', path + image[image.length-1]);
 					}
