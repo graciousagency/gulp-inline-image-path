@@ -26,7 +26,7 @@
   "license": "MIT",
   "dependencies": {
     "gulp-util": "~2.2.14",
-    "through2": "~0.4.1",
+    "through2": "~3.0.2",
     "cheerio": "~0.13.1"
   },
   "devDependencies": {
