@@ -30,7 +30,7 @@
     "cheerio": "~0.13.1"
   },
   "devDependencies": {
-    "mocha": "~1.17.1"
+    "mocha": "~9.0.0"
   },
   "engines": {
     "node": ">=0.10"
